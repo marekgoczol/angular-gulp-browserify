@@ -1,0 +1,43 @@
+{
+  "name": "da-desk-agency-module",
+  "version": "1.5.0",
+  "description": "DA Desk Agency Module",
+  "author": "Marcura",
+  "private": true,
+  "main": "lib/app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Marcura/da-desk-agency-module"
+  },
+  "dependencies": {
+    "angular": "1.4.8",
+    "angular-animate": "1.4.8",
+    "angular-aria": "1.4.8",
+    "angular-material": "1.0.2",
+    "angular-ui-router": "0.2.15"
+  },
+  "devDependencies": {
+    "babelify": "^7.2.0",
+    "browser-sync": "^2.11.0",
+    "browserify": "^13.0.0",
+    "del": "^2.2.0",
+    "eslint": "^1.10.3",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^6.1.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^2.3.1",
+    "gulp-exec": "^2.1.2",
+    "gulp-minify": "0.0.5",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-shell": "^0.5.1",
+    "gulp-util": "^3.0.7",
+    "run-sequence": "^1.1.5",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
+  },
+  "scripts": {
+    "preinstall": "rm -rf node_modules",
+    "postinstall": "./node_modules/gulp/bin/gulp.js postinstall"
+  }
+}
